@@ -6,7 +6,7 @@ st.title("Skin Cancer Classification")
 st.header("Skin Cancer Classification Example")
 st.text("Faça o upload de uma imagem de dermatoscopia para identificar se o cancer é maligno ou benigno")
 
-uploaded_file = st.file_uploader("Escolha uma image ...", type="jpg")
+uploaded_file = st.file_uploader("Escolha uma imagem...", type="jpg")
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption='Imagem escolhida.', use_column_width=True)
