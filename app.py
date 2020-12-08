@@ -3,7 +3,7 @@ from img_classification import skin_cancer_classification
 from PIL import Image
 
 st.title("Skin Cancer Classification")
-st.header("Detecção de Câncer de pele do tipo melanoma.")
+st.header("Detecção de Câncer de Pele do tipo Melanoma.")
 st.text("Faça o upload de uma imagem de dermatoscopia")
 
 uploaded_file = st.file_uploader("Escolha uma imagem...", type="jpg")
