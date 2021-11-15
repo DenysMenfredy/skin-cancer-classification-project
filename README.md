@@ -1,3 +1,20 @@
 # Skin Cancer Classification Project
 This work was carried out in the data mining discipline at the Federal University of Pará.\
-The objective is to classify skin lesion images as malignant or benign melanoma. The dataset used is present in this [link](https://www.kaggle.com/fanconic/skin-cancer-malignant-vs-benign).
+The objective is to classify skin lesion images as malignant or benign melanoma. <br>
+
+The dataset used is present in this [link](https://www.kaggle.com/fanconic/skin-cancer-malignant-vs-benign).
+<hr>
+
+## Tech Stack 🧰
+<img align="left" alt="Python logo" src="https://img.icons8.com/color/48/000000/python--v1.png" />
+<img align="left" alt="Tensorflow Logo" src="https://img.icons8.com/color/48/000000/tensorflow.png" />
+<img align="left" alt="Keras logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/512px-Keras_logo.svg.png" width="48px" />
+<br>
+<br>
+
+## Project Deployment 🚀
+<img align="left" alt="Streamlit logo" src="https://streamlit.io/images/brand/streamlit-mark-color.png" width="64px" />
+<img align="left" alt="Heroku logo" src="https://img.icons8.com/color/48/000000/heroku.png"/>
+<br><br><br>
+
+In order to use the trained model, was built a web application using [Streamlit](https://streamlit.io/) and deploy it on [Heroku](https://www.heroku.com/). <br>You can see the project live [here](https://skin-cancer-project.herokuapp.com/).
